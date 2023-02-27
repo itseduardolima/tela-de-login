@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wight@300;400;500;600;700;800;900 &display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+.main-cadastro {
+    background: #201b2c;
+    display: flex;
+}
+
+.left-cadastro {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.title-login {
+    color: white;
+    font-size: 2em;
+    margin-left: 70px;
+}
+
+.title-cadastro {
+    color: white;
+    font-size: 2em;
+    margin-left: 70px;
+    margin-bottom: 70px;
+}
+
+
+.left-cadastro-image {
+    width: 35vw;
+}
+
+.right-cadastro {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.card-cadastro {
+    min-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.title-form {
+    padding: 15px;
+    color: white;
+    margin: 0;
+    font-size: .9em;
+}
+
+.title-form-login {
+    padding: 15px;
+    color: white;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.logo {
+    width: 50px;
+    margin-bottom: -10px;
+    
+}
+
+
+.textfield {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    
+
+}
+
+.textfield > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: white;
+    color: rgba(0, 0, 0, 0.753);
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000091;
+    outline: none;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+
+input:hover {
+    color: #fff;
+    background-color: #201b2c09;
+    
+    
+}
+
+.btn-cadastro {
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: white;
+    background: #af1964;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -19px #C21E6F;
+    font-size: 12pt;
+}
+
+p {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 950px) {
+    .card-cadastro {
+        min-width: 400px;
+        
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .left-cadastro > h1 {
+        display: none;
+    }
+
+    .left-cadastro {
+        width: 100%;
+        height: 100%;
+    }
+
+    .right-cadastro {
+        width: 100%;
+        height: 100%;
+    }
+
+    .card-cadastro {
+       max-width: 300px;
+       margin-bottom: 25vh;
+    }
+
+    .left-cadastro-image {
+        display: none;
+    }
+
+    .card-cadastro > h1 {
+        font-size: 1.3em;
+    }
+    
+}
+
