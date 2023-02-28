@@ -16,4 +16,4 @@ O projeto foi desenvolvido com o intuito acadêmico para obter nota nas atividad
 </div>
 
 ## Link
-<a href="https://itseduardolima.github.io/tela-de-login/login/index.html">Acessar</a>
+<a href="https://itseduardolima.github.io/tela-de-login/login.html">Acessar</a>
